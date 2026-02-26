@@ -1,2 +1,14 @@
-# bianchamayportfolio
-Creative portfolio of Biancha May Supnet, a BSEMC graduate and Video Editor crafting scroll-stopping short-form content and cinematic visual stories. Specializing in TikTok, Reels, and YouTube Shorts, with a clean, responsive website built using HTML, CSS, JavaScript, and EmailJS. 🎬✨
+# Biancha May Supnet — Video Editor Portfolio
+
+Professional portfolio of Biancha May Supnet, a Bachelor of Science in Entertainment and Multimedia Computing graduate specializing in video editing and short-form content creation.
+
+## ✨ Key Highlights
+- 🎬 Short-form Content optimized for TikTok, Reels, and YouTube Shorts
+- 🎥 Cinematic storytelling projects including "Noli Me Tangere" and "ANONIMO"
+- 📩 Contact system integrated with EmailJS for direct client inquiries
+
+## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- EmailJS API
