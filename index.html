@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biancha May. — Video Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">Biancha May</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#works">Works</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div style="max-width:1200px; margin: 0 auto;">
+  <div class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">Video Editor &amp; Content Creator</div>
+      <h1>Visual stories that <em>stop the scroll</em></h1>
+      <p class="hero-desc">BSEMC Graduate from Our Lady of Fatima University — Valenzuela. Specializing in fast-paced short-form content and cinematic edits for social media and film.</p>
+      <div class="btn-group">
+        <a href="#works" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Let's Collaborate</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card" onclick="openModal('showreel')">
+        <div class="hero-card-inner">
+          <div class="play-icon"></div>
+          <p class="hero-card-label">Watch Showreel</p>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Film Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">CapCut</div>
+          <div class="stat-label">PC &amp; Mobile</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2025</div>
+          <div class="stat-label">Graduate</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ABOUT -->
+
+<section id="about">
+  <div class="section-label">About</div>
+  <h2>Crafting visuals with<br>purpose &amp; rhythm</h2>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>I'm Biancha, a Bachelor of Science in Media and Communication graduate (July 2025) from Our Lady of Fatima University – Valenzuela. I specialize in creating fast-paced, engaging short-form videos that capture attention and communicate stories effectively.</p>
+      <p>My strength lies in producing scroll-stopping content for social media platforms, while continuously expanding my skills in cinematic and long-form storytelling. I enjoy experimenting with transitions, animations, and trend-forward edits that keep audiences hooked.</p>
+      <p>Open to both local Philippine and international clients — whether you need social media content, short film editing, or animation projects.</p>
+    </div>
+    <div>
+      <div class="section-label" style="margin-bottom:1.2rem">Skills &amp; Tools</div>
+      <div class="skills-list">
+        <div class="skill-item"><span class="skill-dot"></span> CapCut PC &amp; Mobile</div>
+        <div class="skill-item"><span class="skill-dot"></span> Short-form Video Editing</div>
+        <div class="skill-item"><span class="skill-dot"></span> Transitions &amp; Animation</div>
+        <div class="skill-item"><span class="skill-dot"></span> Short Film Editing</div>
+        <div class="skill-item"><span class="skill-dot"></span> Animatics</div>
+        <div class="skill-item"><span class="skill-dot"></span> Photography</div>
+        <div class="skill-item"><span class="skill-dot"></span> Social Media Content</div>
+        <div class="skill-item"><span class="skill-dot"></span> Trend-based Editing</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- WORKS -->
+<section id="works">
+  <div class="section-label">Featured Works</div>
+  <h2>Selected projects</h2>
+  <div class="works-grid">
+
+    <div class="work-card reveal" onclick="openModal('noli')">
+      <div class="work-thumb">
+        <div class="work-thumb-play"></div>
+      </div>
+      <div class="work-info">
+        <div class="work-type">Short Film</div>
+        <div class="work-title">Noli Me Tangere</div>
+        <div class="work-role">Video Editor · Dir. Jolo Espiritu</div>
+      </div>
+    </div>
+
+    <div class="work-card reveal" style="transition-delay:0.1s" onclick="openModal('lordplanet')">
+      <div class="work-thumb">
+        <div class="work-thumb-play"></div>
+      </div>
+      <div class="work-info">
+        <div class="work-type">Animatic</div>
+        <div class="work-title">The Lord of the Planet Destroyer</div>
+        <div class="work-role">Animatic Short Animation</div>
+      </div>
+    </div>
+
+    <div class="work-card reveal" style="transition-delay:0.2s" onclick="openModal('anonimo')">
+      <div class="work-thumb">
+        <div class="work-thumb-play"></div>
+      </div>
+      <div class="work-info">
+        <div class="work-type">Animation · Cinemalaya Entry</div>
+        <div class="work-title">ANONIMO</div>
+        <div class="work-role">Animation · Cinemalaya Film Festival</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<hr class="section-divider">
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Contact</div>
+  <h2>Let's work together</h2>
+  <div class="contact-inner reveal">
+    <div class="contact-info">
+      <h3>Have a project in mind? I'd love to hear about it.</h3>
+      <p>Whether you need scroll-stopping social content, short film editing, or a creative collaborator for your next project — reach out and let's talk.</p>
+      <div class="contact-details">
+        <a class="contact-row" href="mailto:your@email.com">
+          <div class="contact-row-icon">✉</div>
+          bianchamaysupent9@gmail.com
+        </a>
+        <a class="contact-row" href="https://www.linkedin.com/in/biancha-may-supnet-11a34936b/" target="_blank">
+          <div class="contact-row-icon">LI</div>
+          @Biancha May Supnet
+        </a>
+        <a class="contact-row" href="https://www.facebook.com/yuginohikari/" target="_blank">
+          <div class="contact-row-icon">FB</div>
+          @yuginohikari
+        </a>
+        <a class="contact-row" href="https://www.tiktok.com/@zaribelleaqua?lang=en" target="_blank">
+          <div class="contact-row-icon">FB</div>
+          @zaribelleaqua
+        </a>
+      </div>
+    </div>
+<form id="contact-form">
+  <div class="form-group">
+    <label>Your Name</label>
+    <input type="text" name="name" required placeholder="Juan dela Cruz">
+  </div>
+  <div class="form-group">
+    <label>Email Address</label>
+    <input type="email" name="email" required placeholder="hello@example.com">
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" placeholder="Tell me about your project…"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary submit-btn" style="width:100%">Send Message</button>
+</form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2025 Biancha May. — Video Editor &amp; Content Creator · Valenzuela, PH</span>
+  <div class="footer-social">
+    <a href="bianchamaysupent9@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/biancha-may-supnet-11a34936b/">Linkedin</a>
+    <a href="https://www.facebook.com/yuginohikari/">Facebook</a>
+    <a href="https://www.tiktok.com/@zaribelleaqua?lang=en">Tiktok</a>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal" onclick="closeModalOutside(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-video-wrap" id="modal-content">
+      <div class="modal-placeholder">
+        <p>Embed your video here</p>
+        <a href="assets/videos/ANONIMO - Cinemalaya Film Entry.mp4">Add YouTube / Drive / Vimeo link →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("1Zx-puP5U_fXskpQT");
+    })();
+</script>
+
+</body>
+</html>
